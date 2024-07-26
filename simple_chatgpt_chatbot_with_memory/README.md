@@ -1,6 +1,6 @@
 # Simple Console ChatGPT Bot with Langchain
 
-This project demonstrates how to create a simple console-based ChatGPT bot using Langchain. The bot interacts with users via the console, processes their inputs using OpenAI's GPT model, and provides responses based on a defined prompt template.
+This project is an extension of the [simple_chatgpt_chatbot](https://github.com/petarjoncheski/chatgbt-chatbot-with-langchain/blob/main/simple_chatgbt_chatbot/simple_chatgbt_chatbot.py) and adds the ability to save and restore chat history.
 
 ## Features
 
