@@ -63,7 +63,7 @@ macOS: pip comes pre-installed with Python if you installed it using Homebrew or
 ### 7. Install Required Packages
 
 Open the terminal in PyCharm and run the following command:
-`pip install python-dotenv langchain-core langchain-openai`
+`pip install python-dotenv langchain-core langchain_openai`
 
 ### 8. Running the app
 

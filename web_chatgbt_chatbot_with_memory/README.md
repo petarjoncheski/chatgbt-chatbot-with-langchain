@@ -1,13 +1,13 @@
-# Simple Console ChatGPT Bot with Langchain
+# Web ChatGPT Bot with Memory Using Langchain and Streamlit
 
-This project is an extension of the [simple_chatgpt_chatbot](https://github.com/petarjoncheski/chatgbt-chatbot-with-langchain/blob/main/simple_chatgbt_chatbot/simple_chatgbt_chatbot.py) and adds the ability to save and restore chat history.
+This project extends the functionality of the  [simple_chatgpt_chatbot_with_memory](https://github.com/petarjoncheski/chatgbt-chatbot-with-langchain/blob/main/simple_chatgpt_chatbot_with_memory/simple_chatgbt_chatbot_with_memory.py) by adding a graphical user interface (GUI) using Streamlit while keeping the ability to save and restore chat history.
 
 ## Features
-
-- Simple console interaction
+- Web-based chat interface using Streamlit
 - Integration with OpenAI's GPT-3.5-turbo
 - Customizable prompt templates
 - Environment variable management for API keys
+- Persistent chat history
 
 ## Prerequisites
 
@@ -17,7 +17,7 @@ This project is an extension of the [simple_chatgpt_chatbot](https://github.com/
 
 ## Getting Started
 
-Follow these steps to set up and run the chat bot:
+Follow these steps to set up and run the chatbot:
 
 ### 1. Download and Install PyCharm
 
@@ -63,7 +63,7 @@ macOS: pip comes pre-installed with Python if you installed it using Homebrew or
 ### 7. Install Required Packages
 
 Open the terminal in PyCharm and run the following command:
-`pip install python-dotenv langchain-core langchain_openai langchain_community`
+`pip install langchain langchain_openai langchain_community streamlit streamlit_chat python-dotenv`
 
 ### 8. Running the app
 
