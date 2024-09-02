@@ -15,7 +15,6 @@ load_dotenv(find_dotenv(), override=True)
 from langchain.memory import ConversationBufferMemory
 from langchain_community.chat_message_histories import FileChatMessageHistory
 from langchain.globals import set_verbose
-`pip install langchain langchain_openai langchain_community streamlit streamlit_chat python-dotenv`
 
 set_verbose(True)
 
